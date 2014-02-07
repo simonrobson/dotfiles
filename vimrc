@@ -122,6 +122,9 @@ nnoremap <c-l> <c-w>l
 " Shift-tab to insert a hard tab
 imap <silent> <S-tab> <C-v><tab>
 
+" Mainly for evaling clojure
+nnoremap <C-e> :Eval<CR>
+nnoremap <leader>fe :%Eval<CR>
 
 """"""""""""""""""""""""""""""""""""""""
 " For more convenient prose writing
