@@ -126,6 +126,10 @@ imap <silent> <S-tab> <C-v><tab>
 nnoremap <C-e> :Eval<CR>
 nnoremap <leader>fe :%Eval<CR>
 
+" Vim turbux settings
+map <leader>t <Plug>SendTestToTmux
+map <leader>T <Plug>SendFocusedTestToTmux
+
 """"""""""""""""""""""""""""""""""""""""
 " For more convenient prose writing
 """"""""""""""""""""""""""""""""""""""""
