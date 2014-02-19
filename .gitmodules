@@ -52,3 +52,6 @@
 [submodule "vim/bundle/vim-turbux"]
 	path = vim/bundle/vim-turbux
 	url = https://github.com/jgdavey/vim-turbux
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git

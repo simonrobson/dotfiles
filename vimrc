@@ -130,6 +130,10 @@ nnoremap <leader>fe :%Eval<CR>
 map <leader>t <Plug>SendTestToTmux
 map <leader>T <Plug>SendFocusedTestToTmux
 
+" Fold settings for vim-markdown
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_initial_foldlevel=1
+
 """"""""""""""""""""""""""""""""""""""""
 " For more convenient prose writing
 """"""""""""""""""""""""""""""""""""""""
