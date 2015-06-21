@@ -131,6 +131,9 @@ nnoremap <leader>fe :%Eval<CR>
 map <leader>t <Plug>SendTestToTmux
 map <leader>T <Plug>SendFocusedTestToTmux
 
+" allow jsx syntax all over the place
+let g:jsx_ext_required = 0
+
 " Fold settings for vim-markdown
 let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_initial_foldlevel=1
