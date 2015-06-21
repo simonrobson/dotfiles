@@ -12,6 +12,7 @@ colorscheme desert
 " colorscheme solarized
 
 let mapleader = ","
+inoremap jj <Esc>
 
 " Whitespace
 set nowrap                      " don't wrap lines
